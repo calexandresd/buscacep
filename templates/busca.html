@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <title>BuscaCEP</title>
+</head>
+<body>
+    <h1>Insira o número do CEP desejado:</h1>
+    <p>(somente números)</p>
+    <form method="POST" action="/resposta">
+        CEP: <input type="text" name="cep">
+        <input type="submit">
+    </form>
+    <h1>__________________________________________</h1>
+    <h1>Insira o número da encomenda:</h1>
+    <form method="POST" action="/rastreio">
+        Código de rastreio: <input type="text" name="cod">
+        <input type="submit">
+    </form>
+
+</body>
+</html>
