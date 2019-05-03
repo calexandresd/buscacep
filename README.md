@@ -1,4 +1,6 @@
 # buscacep
+Retorna o endereço de um CEP.
 # Softwares
 Linguagem = Python<br>
-Framework = Flask
+Framework = Flask<br>
+API = Postmon
