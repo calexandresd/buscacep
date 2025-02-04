@@ -7,7 +7,10 @@ trigger:
 - master
 
 pool:
-  vmImage: ubuntu-latest
+  name: :  novopool
+- task: VSBuild@1
+  inputs:
+    solution: '**\*.sln'
 
 steps:
 - script: echo Hello, world!
