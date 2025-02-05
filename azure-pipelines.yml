@@ -4,11 +4,11 @@
 # https://aka.ms/yaml
 
 trigger:
-- master
+- none
 
 pool:
-  name: :  novopool
-- task: VSBuild@1
+  name: novopool
+  task: VSBuild@1
   inputs:
     solution: '**\*.sln'
 
